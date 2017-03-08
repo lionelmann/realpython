@@ -5,4 +5,7 @@ password = input("Tell me your password")
 
 response = password.upper()
 
-print(response[0])
+if response == "":
+    print("Nothing here")
+else:
+    print(response[0])
